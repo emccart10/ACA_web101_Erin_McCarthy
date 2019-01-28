@@ -134,11 +134,11 @@ img.ri {
     }    
     }
 
-    /*@media (min-width: 768px) {
+    @media (min-width: 768px) {
     .grid-item2 {
             display: block;
     }
-    }*/
+    }
     
     /* Large and up (Desktops) */
     @media (min-width: 992px) { 
