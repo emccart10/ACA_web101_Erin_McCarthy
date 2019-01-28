@@ -12,11 +12,11 @@
     'main main sidebar'
     'content content sidebar'
     'button button sidebar';
-    grid-gap; 20px;
+    grid-gap: 20px;
 }
 
 .grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: white;
     text-align: left;
     padding: 20px 20px;
   }
@@ -65,9 +65,13 @@ h1 {
     font-size: 3rem;
 }
 
-h5 {
-    font-family: Verdana, Geneva, sans-serif;
+h4  {
     color: grey;
+    font-size: 1rem;
+}
+
+h5 {
+    color: white;
     font-size: 1rem;
 }
 
@@ -78,36 +82,74 @@ p {
 
 }
 
+li  {
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+.columns {
+    float: left;
+    position: relative;
+    margin-right: auto;
+
+}
+
+.footer {
+    grid-column: 1 / 4;
+    background-color: darkgray;
+    color: white;
+    columns: 2;
+
+}
+
 img.ri {
     grid-area: photo; 
     max-width: 100%;
     height: auto;
+}
 
-
-media (min-width: 960px) {
+    /*@media (min-width: 960px) {
     .container {
-        width: auto;
-    }
-} 
-    body {
-        background: pink;
-    }
+        width: auto;}
+    .grid-item2 {
+    display: none;
+    }*/
 
     @media (min-width: 576px) {
-
+    .grid-item2 {
+        display: none;
     }
+    }   
     
     /* Medium and up (Tablets) */
     @media (min-width: 768px) {
-    
+    .grid-item2 {
+        display: none;
+    }    
     }
+
+    @media (min-width: 768px) {
+    .footer {
+            display: none;
+    }    
+    }
+
+    /*@media (min-width: 768px) {
+    .grid-item2 {
+            display: block;
+    }
+    }*/
     
     /* Large and up (Desktops) */
-    @media (min-width: 992px) {
-    
+    @media (min-width: 992px) { 
+    .footer {
+            display: none;
+    }
     }
     
     /* Extra Large and up (Wide Screen Desktops) */
     @media (min-width: 1200px) {
-    
+    .footer {
+            display: none; 
+    }
     }
