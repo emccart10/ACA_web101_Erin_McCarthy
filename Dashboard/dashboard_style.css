@@ -1,0 +1,128 @@
+body {
+    background-image: url("/tent_background.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-gap: 5pt;
+    background-color: #A0E5F5;
+    text-align: center;
+    padding: 2px;
+}
+
+/*.box {
+    grid-template-columns: 1fr 3fr 3fr ;
+    grid-template-rows: 1fr 1fr 3fr;
+    grid-gap: 3pt;
+    padding: 60px;
+}
+
+.box .box {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 30px;
+    width: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 3pt;
+} */
+
+.plus {
+    border: 1px white;
+}
+
+.window {
+    border: 1px white;
+}
+.button7 {
+    border: 1px white;
+}
+.button8 {
+    border: 1px white;
+}
+.button9 {
+    border: 1px white;
+}
+.buttonback {
+    border: 1px white;
+}
+.button4 {
+    border: 1px white;
+}
+.button5 {
+    border: 1px white;
+}
+.button6 {
+    border: 1px white;
+}
+/*
+.divided {
+
+}
+.button2 {
+
+}
+.button3 {
+
+}
+.buttonplus {
+
+} */
+
+
+
+/*.inner-grid: {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-gap: 3pt;
+}
+
+.inner-grid > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 30px;
+    width: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 3pt;
+}
+*/
+
+.box6 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.box12 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.box13 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.box14 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+/*
+.window {
+} */
