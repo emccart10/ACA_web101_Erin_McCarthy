@@ -1,164 +1,185 @@
-  .wrapper {
-    margin: 0 auto;
-    width: auto;
-  }
-  
-  .dashboard11-tent_background {
-    background-image: url(dashboard11/tent_background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
-  .grid {
-    display: grid;
-    grid-template-columns: 100px 200px 500px 200px 100px;
-    grid-template-rows: 20px 20px 370px 200px 200px;
-    text-align: center;
-    grid-gap: 10px; 
-  }
-  
-  .title {
-    grid-column-start: 6;
-    grid-column-end: 7;
-    color: #A0E5F5;
-    background-color: white;
-    border: #A0E5F5;
-    padding: 10px;
-    
-  }
-  
-  /*.header {
-    grid-column-start: 6;
-    grid-column-end: 7;
-  } */
-  
-  .calculator {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 3;
-    background-color: #A0E5F5;
-    color: white;
-  }
-  
-  .calculator { 
-    max-width: 200px;
-    margin: 0 auto;
-    border: 2px solid white;
-    padding: 10px;
-  }
-
-  .calulator-input {
-    padding: 30px;
-    background: none;
-    border: none;
-    box-shadow: none;
-    width: 100%;
-    border-bottom: 10px solid white;
-    text-align: right; 
-    font-size: 50px;
-  }
-
-  .calculator-buttons {
-    padding: 10px;
-    display: grid;
-    max-width: 80%;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    /*grid-template-rows: 1fr 1fr 1fr 1fr 1fr;*/ 
-    grid-gap: 10px;
-    align-content: left;
-  }
-  
-  .calc-button {
-    background-color: white;
-    padding: 5px;
-    color: #A0E5F5;
-    border-radius: 6px;
-    Font-size: 20px;
-    cursor: pointer;
-  }
-
-  .is-clear {
-    grid-column: span 3;
-  }
-
-  .greeting {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 3;
-    grid-row-end: 3;
-    background-color: #A0E5F5;
-    color: white;
-    font-size: 120px;
-    text-align: center;
-  }
-  
-  .to-do {
-    grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 3;
-    grid-row-end: 3;
-    background-color: #A0E5F5;
-    color: white;
-    text-align: center;
-    padding: 20px;
-  } 
-   
-  .to-do-input {
-    padding: 30px;
-    background: none;
-    border: none;
-    box-shadow: none;
-    width: 100px;
-    border-bottom: 300px solid white;
-    text-align: right; 
-    font-size: 300px;
-  } 
-
-  .calendar {
-    grid-column-start: 2;
-    grid-column-end: 5;
-    grid-row-start: 4;
-    grid-row-end: 4;
-    background-color: #A0E5F5; 
-    color: white;
-    
-  }
-
-  .calendar {
-    max-width: 900px;
-    max-height: 140px;
-    margin: auto auto;
-    padding: 27px; 
-    border: 2px solid white;
-    font-size: 25px;
-  }
-
-  .calendar-days {
-    padding: 10px;
-    display: grid;
-    max-width: 900px; 
-    max-height: 80px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 100px;
-    grid-gap: 10px;
-  }
-
-  .days {
-    background-color: white;
-    padding: 10px;
-    color: #A0E5F5;
-    border-radius: 6px;
-    Font-size: 20px;
-    cursor: pointer;
-  }
-
-  hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #A0E5F5;
-    margin: 0  0;
-    padding: .5px; 
+.wrapper {
+  margin: 0 auto;
+  width: auto;
 }
-    
+
+.dashboard11-tent_background {
+  background-image: url(dashboard11/tent_background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 100px 200px 500px 200px 100px;
+  grid-template-rows: 20px 20px 370px 200px 200px;
+  text-align: center;
+  grid-gap: 10px; 
+}
+
+.title {
+  grid-column-start: 6;
+  grid-column-end: 7;
+  color: #A0E5F5;
+  background-color: white;
+  border: #A0E5F5;
+  padding: 10px;
+  
+}
+
+/*.header {
+  grid-column-start: 6;
+  grid-column-end: 7;
+} */
+
+.calculator {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  background-color: #A0E5F5;
+  color: white;
+}
+
+.calculator >div{ 
+  max-width: 200px;
+  margin: 0 auto;
+  /*border: 1px solid white; */
+  padding: 15px;
+}
+
+/* i just realized this doesn't actually exist, I need to rename*/
+.calulator-input {
+  padding: 30px;
+  background: none;
+  border: none;
+  box-shadow: none;
+  width: 100%;
+  border-bottom: 10px solid white;
+  text-align: right; 
+  font-size: 50px;
+}
+
+.calculator-buttons {
+  padding: 10px;
+  display: grid;
+  max-width: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /*grid-template-rows: 1fr 1fr 1fr 1fr 1fr;*/ 
+  grid-gap: 10px;
+  align-content: left;
+}
+
+.calc-button {
+  background-color: white;
+  padding: 5px;
+  color: #A0E5F5;
+  border-radius: 6px;
+  Font-size: 20px;
+  cursor: pointer;
+}
+
+.is-clear {
+  grid-column: span 3;
+}
+
+.greeting {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  background-color: #A0E5F5;
+  color: white;
+  font-size: 120px;
+  text-align: center;
+}
+
+.to-do {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  background-color: #A0E5F5;
+  color: white;
+  text-align: center;
+  padding: 20px;
+} 
+ 
+.to-do-input {
+  padding: 30px;
+  background: none;
+  border: none;
+  box-shadow: none;
+  width: 100px;
+  border-bottom: 300px solid white;
+  text-align: right; 
+  font-size: 300px;
+} 
+
+.calendar {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 4;
+  background-color: #A0E5F5; 
+  color: white;
+  
+}
+
+.calendar > div{
+  max-width: 900px;
+  max-height: 140px;
+  margin: auto auto;
+  padding: 25px; 
+  border: 2px solid white;
+  font-size: 25px;
+}
+
+.calendar-days {
+  display: grid;
+  max-width: auto;
+  max-height: 80px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100px;
+  grid-gap: 10px;
+}
+
+.days {
+  background-color: white;
+  padding: 20px;
+  color: #A0E5F5;
+  border-radius: 6px;
+  Font-size: 20px;
+  cursor: pointer;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #A0E5F5;
+  margin: 0  0;
+  padding: .5px; 
+}
+
+
+@media (max-width: 900px /*"iPhone(etc) screen width in pixels"*/) {
+.grid {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+}
+  
+@media (min-width: 300px /*"iPhone(etc) screen width in pixels"*/) {
+.grid {
+  flex-direction: column;
+  flex-align: center;
+  justify-content: space-between;
+}
+} 
+
+
+
+  
+  
