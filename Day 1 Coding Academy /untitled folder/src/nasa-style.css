@@ -1,0 +1,85 @@
+body {
+    width: 850px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+} 
+
+.galaxy {
+    margin: 0 auto; 
+    width: 850px;
+    height: 4504px;
+    flex: stretch;
+    /*background-image: url(../img/nasa_image.jpg);
+    /*color: white; */
+    font-family: 'Staatliches', cursive;
+    flex-direction: row; 
+
+} 
+
+/*section {
+    display: flex;
+    height: 324px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+article {
+    width: 260px;
+    height: 374px;
+    background-color: rgb(224, 222, 222);
+}
+
+.social-media {
+    flex: 1;
+} */
+
+
+/*.container-1 {
+    display: flex;
+    flex-direction: row;
+    /*grid-gap: 20px;*/
+  /*  justify-content: space-evenly;
+
+} */
+/*
+.container-1 div{
+    display: flex;
+    width: 850px;
+    height: 4504px;
+    /*grid-gap: 20px;*/
+ /*   justify-content: space-evenly; */
+
+
+.container-2 {
+    /*flex-direction: row;*/
+    display: flex;
+    grid-gap: 20px;
+    justify-content: space-evenly;
+    justify-content: center;
+
+}
+
+.container-2 div{
+    /*border: 1px;*/
+    padding: 10px;
+    width: 260px;
+    height: 324px;
+    color: black;
+    background-color: rgb(224, 222, 222);
+    /*margin: 20px;*/
+
+}
+
+.social {
+flex-direction: row;
+}
+
+.office {
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.contact {
+    flex-direction: row;
+}
