@@ -22,7 +22,7 @@
   grid-column-end: 7;
   color: #A0E5F5;
   background-color: white;
-  border: #A0E5F5;
+  border: 2px white;
   padding: 10px;
   
 }
@@ -39,6 +39,7 @@
   grid-row-end: 3;
   background-color: #A0E5F5;
   color: white;
+  border: 2px white;
 }
 
 .calculator >div{ 
@@ -84,13 +85,15 @@
 }
 
 .greeting {
+  /*it looked better this way than the clock first*/
+  order: -1;
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 3;
   grid-row-end: 3;
   background-color: #A0E5F5;
   color: white;
-  font-size: 120px;
+  font-size: 110px;
   text-align: center;
 }
 
@@ -162,7 +165,6 @@ hr {
   padding: .5px; 
 }
 
-
 @media (max-width: 900px /*"iPhone(etc) screen width in pixels"*/) {
 .grid {
   display: flex;
@@ -174,12 +176,10 @@ hr {
 @media (min-width: 300px /*"iPhone(etc) screen width in pixels"*/) {
 .grid {
   flex-direction: column;
-  flex-align: center;
-  justify-content: space-between;
+  flex-wrap:wrap;
+  padding:5px;
 }
 } 
-
-
-
   
+
   
