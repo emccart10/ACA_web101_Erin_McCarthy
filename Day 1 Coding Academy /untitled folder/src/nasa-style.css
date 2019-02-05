@@ -7,6 +7,15 @@ body {
     font-family: 'Staatliches', cursive;
 } 
 
+head {
+        background-image: url(tent_background.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-image: url(dashboard11/tent_background.jpg);
+        background-size: cover;
+        background-repeat: no-repeat; 
+}
+
 .galaxy {
     margin: 0 auto; 
     width: 850px;

@@ -1,0 +1,33 @@
+h1 {
+    width: 60%
+    margin: 5% auto;
+}
+/*
+body {
+
+} */    
+    
+main {
+    width: 60%;
+    margin: 5% auto;
+    background: pink;
+}
+
+article {
+    background: whitesmoke;
+    margin: 1% auto;
+    border: 2px solid grey;
+    width: 60%
+}
+
+article > h3 {
+    font-size: 6mm;
+}
+
+article:hover {
+    background: grey
+}
+
+article:hover {
+    color: navy
+}

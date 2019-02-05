@@ -1,3 +1,11 @@
+body {
+  background-image: url(tent_background.jpg);
+  
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+}
+
 .wrapper {
   margin: 0 auto;
   width: auto;
@@ -6,7 +14,7 @@
 .dashboard11-tent_background {
   background-image: url(dashboard11/tent_background.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; 
 }
 
 .grid {
@@ -23,7 +31,7 @@
   color: #A0E5F5;
   background-color: white;
   border: 2px white;
-  padding: 10px;
+  padding: 20px;
   
 }
 
