@@ -1,0 +1,144 @@
+header {
+    background-color: #008080;
+    position: background;
+    display: grid;
+    top: 0;
+    height: 150px;
+    width: 100%;
+    /*grid-template-columns: 100px 200px 200px 200px 100px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;*/
+    grid-column: 1 / span 5;
+    grid-row: 1 / span 1;
+}
+
+.menu {
+    list-style: inline-block;
+}
+
+button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    /*display: */
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+body {
+    display: flex;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    background: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-size: 100% 100%;
+  
+}
+  
+body > div {
+    background-color: black;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 15px;
+    margin: 10px 300px;
+}
+
+.container1 {
+    display: grid;
+    grid-gap: 30px;
+    padding: 10px;
+    border: solid green;
+}
+
+.container1 > div {
+    /*background-color: #008080; */
+    text-align: left;
+    grid-gap: 10px;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.container5 {
+    display: grid;
+    border: solid 5px red;
+    grid-template-columns: 1fr 1fr 2fr 2fr 1fr 1fr;
+    grid-template-rows: 1fr; 
+}
+
+ 
+.nav {
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    right: 0px;
+} 
+
+.featured {
+    /*display: grid; */
+    grid-column: 2 / span 3;
+    padding: 2px 2px;
+    font-size: 12px;
+    text-align: left;
+    border: solid 5px #008080;
+}
+
+.best {
+    grid-column: 1 / span 2; 
+    grid-row: 1 / span 1; 
+    padding: 2px 2px;
+    font-size: 12px;
+    text-align: wrap;
+    border: solid 5px #008080;
+}
+
+.big-box {
+    border: solid 5px black;
+    background-color: black;
+    height: 30px;
+    width: 50px; 
+}
+
+
+.best img {
+    grid-column: 2 / span 3; 
+    grid-row: 2 / span 2; 
+    text-align: wrap;
+
+}
+
+.hairstyle {
+    grid-column: 1 / span 3; 
+    grid-row: 3 / span 3; 
+    padding: 2px 2px;
+    font-size: 12px;
+    text-align: left;
+    border: solid 5px #008080;
+    color: white; 
+    background: #008080;
+}
+
+.losing {
+    grid-column: 1 / span 3; 
+    *grid-row: 3 / span 3;
+    padding: 2px 2px;
+    font-size: 12px;
+    text-align: left;
+    color: white; 
+    background-color: #008080;
+}
+
+footer {
+    position: bottom;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background: #008080;
+
+}
