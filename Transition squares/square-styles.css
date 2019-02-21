@@ -1,0 +1,22 @@
+
+
+.box {
+    border-style: solid;
+    position: relative;
+    width:100px;
+    height: 100px;
+    margin:4px;
+  }
+  
+  .red{background-color: #0028E8}
+  .blue{background-color: #DD00FF}
+  .green{background-color: #E85900}
+  .yellow{background-color: #0AFF21}
+  .purple {background-color: #800080}
+  .black {background-color: #000000}
+  .brown {background-color: #380202}
+  .pink {background-color: #FFE8F5}
+  .orange {background-color: #FDAE04}
+  .grey {background-color: #808080}
+  .tan {background-color: #DFDDA7}
+  .white {background-color:#FFFFFF}
