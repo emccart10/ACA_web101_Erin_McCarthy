@@ -1,11 +1,13 @@
 
 
-.box {
+.box{
     border-style: solid;
     position: relative;
     width:100px;
     height: 100px;
     margin:4px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .red{background-color: #0028E8}
@@ -20,3 +22,12 @@
   .grey {background-color: #808080}
   .tan {background-color: #DFDDA7}
   .white {background-color:#FFFFFF}
+  
+  .box:hover {
+    width: 200px;
+    height: 200px;
+  }
+  
+  
+  
+  
