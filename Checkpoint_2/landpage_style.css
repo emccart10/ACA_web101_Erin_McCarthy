@@ -1,0 +1,17 @@
+body {
+    dislay: grid;
+    grid-template-columns: repeat(5, 100px);
+    grid-template-rows: repeat(3, 100px);
+    grid-gap: 10px;
+
+}
+
+#bar {
+    background-color: #C2DADA;
+    column-span: all;
+}
+
+.articles {
+    grid-column-start: 1;
+    grid-column-end: 6;
+}

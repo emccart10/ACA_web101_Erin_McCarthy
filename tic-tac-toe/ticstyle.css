@@ -1,0 +1,161 @@
+html {
+    background-color: white;
+
+}
+
+header,
+footer {
+    background-color: #380202;
+    color: pink;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    
+}
+
+container {
+    display: grid;
+    /* grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: 3fr 3fr 3fr;
+    grid-gap: 0; */
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    width: 600px;
+    margin: auto;
+  }
+
+.player-0 {
+      display: inline-block;
+      background-color: #d2b48c;
+      border: 0.5rem outset pink;
+      /* border-left: 15px solid #380202; */
+      margin: auto;
+      grid-column: 1;
+      grid-row: 1;
+      padding: 0;
+      margin: 0;
+  }
+  
+  .blank {
+    display: inline-block;
+    grid-column: 2;
+    grid-row: 1;
+    background: white;
+    border: none;
+}
+
+
+  .player-x, {
+    display: inline-block;
+    background-color: #d2b48c;
+    border: 0.5rem outset pink;
+    border-left: 15px solid #380202;
+    margin: auto;
+    grid-column: 3;
+    /* grid-row: 1; */
+    padding: 0;
+    margin: 0;
+}
+
+
+  div {
+    height: 200px;
+    width: 200px;
+    background-color:#d2b48c;
+    border: 0.5rem outset pink;
+    
+  }
+
+
+
+  input {
+      height: 190px;
+      width: 90%;
+      justify-self: center; 
+
+  }
+  
+  .upperl {
+    grid-column: 1; 
+    border-right: 15px solid #380202;  
+    border-bottom: 15px solid #380202;  
+  }
+  
+  .upperm {
+    /* grid-column: 2;
+    grid-row: 1; */
+    border-bottom: 15px solid #380202; 
+    border-right: 15px solid #380202;
+    /* flex: 1; */
+  }
+  
+  .upperr {
+    /* grid-column: 3;
+    grid-row: 1; */
+    border-bottom: 15px solid #380202;  ;
+    justify-self: left;
+    /* flex: 1; */
+  }
+  
+  .middlel {
+    /* grid-column: 1;
+    grid-row: 2; */
+    border-bottom: 15px solid #380202  ;
+    border-right: 15px solid #380202  ;
+    justify-self: right;
+    /* flex: 1; */
+  }
+  
+  .middlem {
+    /* grid-column: 2;
+    grid-row: 2; */
+    border-bottom: 15px solid #380202  ;
+    border-right: 15px solid #380202;
+    /* flex: 1; */
+  }
+  
+  .middler {
+    /* grid-column: 2 ;
+    grid-row: 2; */
+    border-bottom: 15px solid #380202  ;
+    /* flex: 1; */
+  }
+  
+  .bottoml {
+    /* grid-column: 1 ;
+    grid-row: 3; */
+    border-right: 15px solid #380202  ;
+    justify-self: right;
+    /* flex: 1; */
+  }
+  
+  .bottomm {
+    /* grid-column: 2 ;
+    grid-row: 3; */
+    border-right: 15px solid #380202;
+    /* flex: 1; */
+  }
+
+  container2 {
+    display: grid;  
+    grid-template-columns: repeat(3,1fr);
+    margin: auto;
+    width: 600px;
+  }
+
+   button {
+    border: none;
+    color: #380202;
+    background: pink;
+    text-align: center;
+    border: 15px solid #380202;
+    text-decoration: none;
+    font-size: 20px; 
+    grid-column: 2;
+    
+  }
+
+  footer {
+
+  }
+  
