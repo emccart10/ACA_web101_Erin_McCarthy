@@ -1,156 +1,152 @@
 /* yes- this isn't working as planned but I have a plan to work on this and fix it. i got into trouble with the grid in the grid. anyway, I'll dig out of this but wanted to post it.*/
-
 header {
     display: grid;
     height: 20px;
-    width: 100%; 
+    width: 100%;
     position: right;
     text-align: right;
-    font-size: 14px; 
-}
-
-
-body {
+    font-size: 14px;
+  }
+  
+  body {
     background: url("/tent_background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     /*background-size: 100% 100%;*/
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.wrapper {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  
+  .wrapper {
     display: grid;
-    grid-template-columns: 100px 200px 300px 200px
-    100px;
-    grid-template-rows: 100px 200px 400px; 
+    grid-template-columns:
+      100px 200px 300px 200px
+      100px;
+    grid-template-rows: 100px 200px 400px;
     /*grid-template-columns: 1fr 1fr 3fr 1fr 1fr; 
-    grid-template-rows: 1fr 2fr 1fr; */
+      grid-template-rows: 1fr 2fr 1fr; */
     /*grid-template-columns: repeat(5, [col] 150px ) ;
-    grid-template-rows: repeat(3, [row] auto  ) ; */
+      grid-template-rows: repeat(3, [row] auto  ) ; */
     grid-gap: 20px;
-    background-color: #A0E5F5;
+    background-color: #a0e5f5;
     padding: 50px;
-}
-
-.wrapper > div {
-    background-color: #A0E5F5;
+  }
+  
+  .wrapper > div {
+    background-color: #a0e5f5;
     text-align: center;
     grid-gap: 10px;
     padding: 10px;
     font-size: 12pt;
-}
-
-
-/*.box {
-    grid-template-columns: 1fr 3fr 3fr ;
-    grid-template-rows: 1fr 1fr 3fr;
-    grid-gap: 3pt;
-    padding: 60px;
-}
-
-.box .box {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    height: 30px;
-    width: 20px;
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 3pt;
-} */
-
-.box12 {
-    grid-column:  2 / span 3;
-    grid-row: 2 / span 2; 
-}
-
-#plus {
+  }
+  
+  /*.box {
+      grid-template-columns: 1fr 3fr 3fr ;
+      grid-template-rows: 1fr 1fr 3fr;
+      grid-gap: 3pt;
+      padding: 60px;
+  }
+  
+  .box .box {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      height: 30px;
+      width: 20px;
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 3pt;
+  } */
+  
+  .box12 {
+    grid-column: 2 / span 3;
+    grid-row: 2 / span 2;
+  }
+  
+  #plus {
     border: 1px white;
     font-size: 30pt;
-}
-
-#window {
+  }
+  
+  #window {
     border: 1px white;
-}
-#button7 {
+  }
+  #button7 {
     border: 1px white;
-}
-.button8 {
+  }
+  .button8 {
     border: 1px white;
-}
-.button9 {
+  }
+  .button9 {
     border: 1px white;
-}
-.buttonback {
+  }
+  .buttonback {
     border: 1px white;
-}
-.button4 {
+  }
+  .button4 {
     border: 1px white;
-}
-.button5 {
+  }
+  .button5 {
     border: 1px white;
-}
-.button6 {
+  }
+  .button6 {
     border: 1px white;
-}
-
-.divided {
+  }
+  
+  .divided {
     border: 1px white;
-}
-.button2 {
+  }
+  .button2 {
     border: 1px white;
-}
-.button3 {
+  }
+  .button3 {
     border: 1px white;
-}
-.buttonplus {
+  }
+  .buttonplus {
     border: 1px white;
-} 
-
-
-
-/*.inner-grid: {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 3fr 1fr;
-    grid-gap: 3pt;
-}
-
-.inner-grid > div {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    height: 30px;
-    width: 20px;
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 3pt;
-}
-*/
-
-.box5 {
-    grid-column:  4 / span 6;
-    grid-row: 1 / span 1; 
-    /*grid-row-end: 1; */ 
-}
-
-/*.box12 {
-    grid-column: 2 / span 3;
-    /*grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 2;
-} */
-
-.box13 {
+  }
+  
+  /*.inner-grid: {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 3fr 1fr;
+      grid-gap: 3pt;
+  }
+  
+  .inner-grid > div {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      height: 30px;
+      width: 20px;
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 3pt;
+  }
+  */
+  
+  .box5 {
+    grid-column: 4 / span 6;
+    grid-row: 1 / span 1;
+    /*grid-row-end: 1; */
+  }
+  
+  /*.box12 {
+      grid-column: 2 / span 3;
+      /*grid-column-end: 4;
+      grid-row-start: 2;
+      grid-row-end: 2;
+  } */
+  
+  .box13 {
     grid-column: 3 / span 4;
     /*grid-column-end: 5;
-    grid-row-start: 3;
-    grid-row-end: 3; */
-}
-
-ul {
+      grid-row-start: 3;
+      grid-row-end: 3; */
+  }
+  
+  ul {
     padding: 0;
   }
   
@@ -166,27 +162,27 @@ ul {
     padding: 10px;
     margin-bottom: 10px;
   }
-
-.list_section{
+  
+  .list_section {
     grid-column: 4 / span 5;
     /*grid-column-end: 5;
-    grid-row-start: 2;
-    grid-row-end: 2; */
-}
-
-.item {
+      grid-row-start: 2;
+      grid-row-end: 2; */
+  }
+  
+  .item {
     background-color: #fff;
     color: #000;
   }
-
-input[type='text'] {
+  
+  input[type="text"] {
     font-size: 12px;
     padding: 6px;
     border: 1px solid #000;
     border-radius: 3px;
   }
   
-  input[type='submit'] {
+  input[type="submit"] {
     background-color: #fff;
     color: #000;
     border-radius: 8px;
@@ -202,3 +198,4 @@ input[type='text'] {
     margin-top: 60px;
     width: 10%;
   }
+  
