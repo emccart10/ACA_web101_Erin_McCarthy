@@ -1,10 +1,11 @@
 /* yes- this isn't working as planned but I have a plan to work on this and fix it. i got into trouble with the grid in the grid. anyway, I'll dig out of this but wanted to post it.*/
-header: {
-    diplay: grid;
+
+header {
+    display: grid;
     height: 20px;
     width: 100%; 
     position: right;
-    text align: right;
+    text-align: right;
     font-size: 14px; 
 }
 
@@ -149,9 +150,55 @@ body {
     grid-row-end: 3; */
 }
 
-.box14 {
+ul {
+    padding: 0;
+  }
+  
+  li {
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+    list-style-type: none;
+    width: 20%;
+    margin: 0px auto;
+    border-radius: 3px;
+    border: 1px solid #000;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+.list_section{
     grid-column: 4 / span 5;
     /*grid-column-end: 5;
     grid-row-start: 2;
     grid-row-end: 2; */
 }
+
+.item {
+    background-color: #fff;
+    color: #000;
+  }
+
+input[type='text'] {
+    font-size: 12px;
+    padding: 6px;
+    border: 1px solid #000;
+    border-radius: 3px;
+  }
+  
+  input[type='submit'] {
+    background-color: #fff;
+    color: #000;
+    border-radius: 8px;
+    border: none;
+    padding: 5px;
+  }
+  
+  #newItemButton {
+    display: none;
+  }
+  
+  #itemField {
+    margin-top: 60px;
+    width: 10%;
+  }

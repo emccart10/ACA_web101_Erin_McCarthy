@@ -28,12 +28,21 @@
             <div class="buttonplus">+/-</div>
         </div>   
         <div class="box 13">HELLO HUMAN</div>
-        <div class="box 14">
+        <div class="list_section">
             <h3>To Do list</h3>
-            <ul>1,2,3</ul>
+            <ul>
+                <li>Eat Donuts</li>
+            </ul>
+            <div id="newItemButton"><button href="#">new item</button></div>
+            <form id="newItemForm">
+                <input type="text" id="itemField" placeholder="Item" />
+                <input type="submit" id="add" value="add" />
+            </form>    
         </div>
         <div class="box 5">3:30PM</div>
     </div>
     </main>
+    <script src="https://code.jquery.com/jquery-1.12.3.js"></script>
+    <script src="todo-list.js"></script>
 </body>
 </html>
