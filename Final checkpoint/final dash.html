@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+</html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/wtf_style.css"/>
+  <title>Dashboard</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js/"></script>
+  <script type="text/javascript" src="/final-dash.js"></script>
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <div class="grid">
+      <div class="header">
+          
+      </div>
+
+      <div class="calculator">
+        <h2>You Can't Do Math</h2>
+        <input type="number" placeholder="0">
+
+        <div class="calculator-buttons">
+          <button class="calc-button is-clear">C</button>
+          <button class="calc-button">&divide;</button>
+
+          <button class="calc-button">7</button>
+          <button class="calc-button">8</button>
+          <button class="calc-button">9</button>
+          <button class="calc-button">&times;</button>
+
+          <button class="calc-button">4</button>
+          <button class="calc-button">5</button>
+          <button class="calc-button">6</button>
+          <button class="calc-button">&minus;</button>
+
+          <button class="calc-button">1</button>
+          <button class="calc-button">2</button>
+          <button class="calc-button">3</button>
+          <button class="calc-button">&plus;</button>
+
+          <button class="calc-button">0</button>
+          <button class="calc-button">&equals;</button>
+        </div>
+      </div>
+      <div class="greeting">
+        <a href="https://salmonjam.org/ak-salmon-runs/" target="_blank"><h1>ALASKA</h1></a> 
+        <p>07.20.19</p>
+        <a href="https://www.seawheeze.com/content/seawheeze/index/run/about.html/" target="_blank"><h1>TORONTO</h1></a>
+        <p>08.11.19</p>
+        <a href="https://runsra.org/california-international-marathon/" target="_blank"><h1>CALIFORNIA</h1></a>
+        <p>12.07.19</p>
+      </div>
+      <div id="myDIV"  class="header">
+        <h2>To Do List</h2>
+        <input type="text" id="myInput" placeholder="Hit me!">
+        <span onclick="newElement()" class="addBtn">Add</span>
+          <ul id="myUL">
+          <li class="checked">Buy Donuts</li>
+          <li>Drive to School</li>
+          <li>Sit in car, eat donuts</li>
+          <li>Look for cats</li>
+          <li>Stare at cats on instagram</li>
+          <li>Hide the donut evidence</li>
+          <li>Walk to school</li>
+          <li>Look for cats</li>
+        </ul>
+      </div>
+      <div class="calendar">MARCH
+        <div class="calendar-days">
+          <div class="zoom">
+          <div class="days"><a href="https://www.google.com/maps/place/Lady+Bird+Lake+Trail,+Austin,+TX/data=!4m2!3m1!1s0x8644b516d04848df:0xf1ee7af28b1492e5?ved=2ahUKEwiIufvLzovhAhVQLK0KHQqECPUQ8gEwAHoECAAQAQ/" target="_blank"></a><h3>Sunday</h3></a>
+            <hr>
+            <p><h4>17</h4></p>
+            <p>7:00am</p> <p>Bike, 10mile</p>
+          </div>
+        </div>
+          <td></td>
+          <div class="zoom">
+          <div class="days"><a href="https://www.gilbertsgazelles.com/training-events/2019/3/18/3-6-x-1-mile-10k-pace-90-seconds-rest/" target="_blank"><h3>Monday</h3></a>
+            <hr>
+            <p><h4>18</h4></p>
+            <p>5:30am</p> 
+            <p>Hill Repeats, Rainbow Bend</p>
+          </div>
+        </div>
+        <div class="zoom"> 
+        <div class="days"><a href="https://www.mapmyrun.com/us/anderson-mill-tx/" target="_blank"><h3>Tuesday</h3></a>
+            <hr>
+            <p><h4>19</h4></p>
+            <p>5:30am</p> <p>Recovery Run, Anderson Ln</p>
+          </div>
+        </div>
+        <div class="zoom"> 
+          <div class="days"><a href="https://www.gilbertsgazelles.com/training-events/2019/3/13/2-5-x-600-400-200-10k-pace-200m-recovery-2-min-between-sets/" target="_blank"><h3>Wednesday</h3></a>
+            <hr>
+            <p><h4>20</h4></p>
+            <p>5:30am 2-5 X (600, 400, 200)
+            @10k, 200m Rec  
+            </p>
+          </div>
+        </div>
+        <div class="zoom"> 
+          <div class="days"><a href="https://www.mapmyrun.com/us/anderson-mill-tx/" target="_blank"><h3>Thursday</h3></a>
+            <hr>
+            <p><h4>21</h4></p>
+            <p>5:30am</p> <p>Recovery Run, TBD</p>
+          </div>
+        </div>
+        <div class="zoom"> 
+          <div class="days"><a href="https://www.gilbertsgazelles.com/training-events/2017/12/1/strength-core-dw7wk-behlh-xy3dk-9myfl-5rttf-bf8ml-cwwxg-4kkfb-aa6wf-gfz6n-sn8cm-67kje-lwe3b-rrwde-s2hff-j4y2r-rd8tf-khh3w-zj946-dzmse-n9kfp-bfjtx-bphk9-xbl24-jxl6t-8zpne-2k829-pc75z-c28ct-7zek7-jw3fz-deznw/" target="_blank"><h3>Friday</h3></a>
+            <hr>
+            <p><h4>22</h4></p>
+            <p>5:30am</p> <p>Core/Gym</p>
+          </div>
+        </div>
+          <div class="zoom"> 
+          <div class="days"><a href="https://www.gilbertsgazelles.com/training-events/2019/3/9/tentative-route-subject-to-change-mt-bonnell/" target="_blank"><h3>Saturday</h3></a>
+            <hr>
+            <p><h4>23</h4></p>
+            <p>5:45am</p> <p>Long Run PTP, TBD</p>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+</div>
+  </main>
+</body>
+
+</html>

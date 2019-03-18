@@ -1,0 +1,358 @@
+body {
+  background-image: url(tent_background.jpg);
+  background-repeat: no-repeat;
+  background-position: scroll;
+  background-size: 100% 105%;
+}
+
+a {
+  text-decoration: none;
+  color: #A0E5F5;
+  }
+
+.wrapper {
+  margin: 0 auto;
+  width: auto;
+}
+
+.dashboard11-tent_background {
+  background-image: url(dashboard11/tent_background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+
+.grid {
+  display: grid;
+  /* grid-template-columns: 100px 200px 500px 200px 100px;
+  grid-template-rows: 20px 20px 370px 200px 200px; */
+  grid-template-columns: 1fr 2fr 3fr 2fr 1fr;
+  grid-template-rows: 20px 20px 370px 200px 200px;
+  text-align: center;
+  grid-gap: 10px; 
+}
+
+title {
+  /* grid-column-start: 6;
+  grid-column-end: 7; */
+  color: #A0E5F5;
+  background-color: white;
+  border: 2px white;
+  padding: 20px;
+  
+}
+
+/*.header {
+  grid-column-start: 6;
+  grid-column-end: 7;
+} */
+
+.calculator {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  background-color: #A0E5F5;
+  color: white;
+  border: 2px white;
+}
+
+.calculator >div{ 
+  max-width: 200px;
+  margin: 0 auto;
+  /*border: 1px solid white; */
+  padding: 15px;
+}
+
+.calulator-input {
+  padding: 30px;
+  background: none;
+  border: none;
+  box-shadow: none;
+  width: 100%;
+  border-bottom: 10px solid white;
+  text-align: right; 
+  font-size: 50px;
+}
+
+.calculator-buttons {
+  padding: 10px;
+  display: grid;
+  max-width: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /*grid-template-rows: 1fr 1fr 1fr 1fr 1fr;*/ 
+  grid-gap: 10px;
+  align-content: left;
+}
+
+.calc-button {
+  background-color: white;
+  padding: 5px;
+  color: #A0E5F5;
+  border-radius: 6px;
+  Font-size: 20px;
+  cursor: pointer;
+}
+
+.is-clear {
+  grid-column: span 3;
+}
+
+h1{
+  margin:0;
+  margin-bottom: 0;
+  padding: 0;
+  color: white;
+  text-decoration: none;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+
+.greeting {
+  /*it looked better this way than the clock first*/
+  /* order: -1; */
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  /* background-color: #A0E5F5; */
+  color: white;
+  font-size: 20px;
+  padding: 0;
+  text-align: center;
+}
+
+.header {
+  box-sizing: border-box;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  background-color: #A0E5F5;
+  /* color:#A4A4A4; */
+  color: #420278;
+  text-align: left;
+  padding: 20px;
+} 
+ 
+input {
+  padding: 10px;
+  background: white;
+  border: none;
+  box-shadow: none;
+  width: 50%;
+  height: 20px;
+  /* border-bottom: 30px solid white; */
+  text-align: right; 
+  font-size: 16px;
+}
+
+
+ul {
+  margin: 0;
+  padding: 10px;
+}
+
+/* Style the list items */
+ul li {
+  cursor: pointer;
+  position: relative;
+  /* padding: 12px 8px 12px 20px; */
+  list-style-type: none;
+  background: #A0E5F5;
+  font-size: 18px;
+  transition: 0.2s;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Set all odd list items to a different color (zebra-stripes) */
+ul li:nth-child(odd) {
+  background: #f9f9f9;
+  /* background: #140F0C; */
+}
+
+/* Darker background-color on hover */
+ul li:hover {
+  /* background: #ddd; */
+  /* background: #A83F15;  */
+  background: #EEE1C9;
+  /* background: #F7FAE7;
+  background: #060A0A;
+  background: #420278;  */
+}
+
+/* When clicked on, add a background color and strike out text */
+ul li.checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+/* Add a "checked" mark when clicked on */
+ul li.checked::before {
+  content: '';
+  /* position: absolute; */
+  float: left;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0px 2px 2px 0;
+  top: 10px;
+  transform: rotate(45deg);
+  height: 8px;
+  width: 5px;
+}
+
+/* Style the close button */
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  /* padding: 12px 16px 12px 16px; */
+}
+
+.close:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+
+.myInput {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 75%;
+  padding: 20px;
+  float: left; 
+  font-size: 16px;
+} 
+
+/* Style the "Add" button */
+.addBtn {
+  padding: 8px;
+  width: 25%;
+  margin-left: 40px;
+  background:#bbb;
+  color: white;
+  /* float: right; */
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 10;
+
+}
+
+.addBtn:hover {
+  /* background-color: #A83F15; */
+background-color: #EEE1C9;
+}
+
+.calendar {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 4;
+  /* padding; 10px; */
+  margin-bottom: 10px;
+  background-color: #A0E5F5; 
+  /* color: white; */
+  color: #140F0C;
+  height: 260px;
+}
+
+.calendar > div{
+  max-width: 900px;
+  height: 170px; 
+  margin: auto auto;
+  padding: 25px; 
+  /* border: 2px solid white; */
+  border: 2px solid #140F0C;
+  font-size: 25px;
+}
+
+.calendar-days {
+  display: grid;
+  max-width: auto;
+  max-height: 300px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100px;
+  grid-gap: 10px;
+}
+
+.days {
+  background-color: white;
+  padding: 20px;
+  color: #A0E5F5;
+  border-radius: 6px;
+  Font-size: 13px;
+  cursor: pointer;
+  height: 150px;
+  margin-top: 0 0;
+
+}
+
+/* Darker background-color on hover */
+.days:hover {
+  /*background: #ddd; */
+  background-color: #140F0C;
+
+}
+
+.zoom {
+  /* padding: 50px; */
+  /* background-color: green; */
+  transition: transform .1s; /* Animation */
+  width: 100%;
+  /* height: 200px; */ 
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #A0E5F5;
+  margin: 0;
+  padding: .5px; 
+}
+
+/* .geo {
+  border-color: 3px solid  #A0E5F5;
+  height: 30px;
+  width: 90px;
+  padding: 10px;
+  background-color:  #A0E5F5;
+  margin: 10px;
+grid-column-start: 2;
+grid-column-end: 2;
+} */
+
+
+
+@media (max-width: 900px /*"iPhone(etc) screen width in pixels"*/) {
+.grid {
+  display: flex
+  justify-content: space-between;
+  margin: auto;
+}
+}
+  
+@media (min-width: 300px /*"iPhone(etc) screen width in pixels"*/) {
+.grid {
+  flex-direction: column;
+  flex-wrap:wrap;
+  padding:5px;
+}
+} 
+  
+
+  
