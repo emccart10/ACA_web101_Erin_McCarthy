@@ -1,26 +1,44 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>final checkpoint</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="/final.css">
-    <link rel="stylesheet" href="/animate.min.css">
-    <script src="/final-move.js"></script>
-</head>
-<body>
-         <div id="board">
-          <div class="column"></div>
-          <div class="column"></div>
-          <div class="column">
-            <div class="disc red"></div>
-          </div>
-          <div class="column"></div>
-          <div class="column"></div>
-          <div class="column"></div>
-          <div class="column"></div>
-        </div>
 
-</body>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>final checkpoint</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href=url "/final.css">
+  <link rel="stylesheet" href="/animate.min.css">
+  <script src="/final-move.js"></script>
+</head>
+
+<body>
+<div class="header">
+  <H1>"You left me at home" guilt game</H1>
+  <div id="game">
+    <div id="controls">
+      <p><button onclick="petClick(1)">PET ME</button> 🙌 <span id="pet">0</span> </p>
+      <p><button onclick="growLove()">Get Smooches</button> 😘 <span id="kisses">0</span> </p>
+      <p><span id="kissCost">10 </span>🙌 = 😘 </p>
+      </span>
+      <div id="graph"></div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">  
+      <svg class="heart" viewBox="0 0 32 29.6"> 
+  <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+	c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>    </svg>
+    <h3>Love Mug</h3> 
+    <span class="heart"></span> 
+    </div>
+  </div>
+
+    <div class="footer">
+  <h2>Footer</h2>
+</div>
+    
+    </body>
+
 </html>
